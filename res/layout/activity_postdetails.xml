@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/wpimageView"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        app:srcCompat="@drawable/wp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wpimageView"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/PostTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="TITLE"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"/>
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/imgAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_account_white"
+            android:layout_below="@+id/PostTitle"/>
+        <TextView
+            android:layout_toRightOf="@+id/imgAuthor"
+            android:layout_below="@+id/PostTitle"
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="author"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PostTitle"
+            android:layout_toRightOf="@+id/imgDate"
+            android:text="september 19, 2019"
+            android:padding="10dp"
+            android:paddingLeft="2dp"/>
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/imgDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_clock_white"
+            android:layout_below="@+id/PostTitle"
+            android:layout_toRightOf="@+id/author"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/relative"
+        android:id="@+id/Content"
+        android:text="@string/Content"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WordPress API</string>
+    <string name="image_for_article">image for article</string>
+    <string name="Content">Jakarta, 14/2/2018. Mulai tahun 2018 ini, Badan Ekonomi Kreatif (BEKRAF) bekerja sama dengan PT KOLABORASI IDE KREATIF menyelenggarakan serta memfasilitasi program pendidikan dan pelatihan untuk menghasilkan programmer sebagai alternatif profesi bagi para penyandang disabilitas. Program ini diberi nama Coding Mum Disabilitas sebagai pengembangan dari Coding Mum yang telah dilaksanakan di tahun 2016 – 2017 dengan sasaran ibu - ibu rumah tangga dan buruh migran Indonesia di luar negeri.\n\n
+        Kepala Badan Ekonomi Kreatif, Triawan Munaf mengatakan kegiatan ini merupakan bagian dari skenario besar untuk mencapai sasaran strategis Bekraf dalam menyerap tenaga kerja dari sektor industri ekonomi kreatif hingga berjumlah hingga tujuh belas jiwa di tahun 2019. “Coding Mum Disabilitas diharapkan dapat lebih memberdayakan saudara saudara kita yang karena satu dan lain hal mempunyai kemampuan yang berbeda. Program ini juga sekaligus untuk menjawab tantangan alert coder atau kekurangan tenaga programer di Indonesia”, ujar Pak Triawan.\n\n
+        Kekurangan tenaga - tenaga programer tersebut semakin terasa ketika ekonomi kreatif yang akan dikembangkan yakni yang bertranformasi ke digital. Dibutuhkan setidaknya 100 ribu programer handal untuk membangun 1000 start up yang berkualitas. Artinya, Satu orang start up akan membutuhkan ratusan orang programer untuk mendukung usahanya.\n\n
+        Resource : https://www.bekraf.go.id/berita/page/10/bekraf-gelar-coding-mum-2018
+    </string>
+</resources>
